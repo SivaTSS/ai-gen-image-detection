@@ -44,6 +44,16 @@ Multiple classification models are explored, including Vanilla CNN, MobileNet, R
 
 The performance of each model is evaluated based on metrics such as accuracy, precision, recall, and F1-score. Observations and insights regarding model performance and complexity are provided, highlighting the strengths and limitations of each architecture.
 
+| Model       | Accuracy | Precision | Recall | F1-score | Parameters (in Millions) |
+|-------------|----------|-----------|--------|----------|--------------------------|
+| Vanilla CNN | 0.911    | 0.964     | 0.851  | 0.904    | 0.37                     |
+| MobileNet   | 0.950    | 0.944     | 0.958  | 0.947    | 1.1                      |
+| ResNet      | 0.960    | 0.952     | 0.970  | 0.961    | 6.26                     |
+| VGG16       | 0.960    | 0.971     | 0.948  | 0.959    | 14.86                    |
+| EfficientNet| 0.972    | 0.975     | 0.960  | 0.967    | 24.13                    |
+| ViT         | **0.984**    | **0.988**     | **0.980**  | **0.984**    | **86.56**                    |
+
+
 ## Conclusion
 
 Advanced architectures like ViT and EfficientNet demonstrate superior performance in accurately classifying real and fake images compared to traditional models. The trade-off between model performance and complexity emphasizes the importance of selecting the right architecture for specific tasks.
